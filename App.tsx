@@ -5,7 +5,7 @@ import { Image } from 'react-native';
 export default function LoginScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Login</Text>
+      <Text style={styles.title} >Login</Text>
       <Image source={require('../sa_2023/assets/textInClass.png')} style={styles.logo} />
 
       <View style={styles.inputContainer}>
